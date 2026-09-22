@@ -1,0 +1,25 @@
+ROTAPRO 0.7 - GUIA RAPIDO
+
+OBJETIVO
+Gerar um APK Android instalavel do RotaPro com poucos passos.
+
+PRIMEIRA VEZ
+1. Instale o Android Studio no Windows.
+2. Abra a pasta RotaPro deste pacote.
+3. Aguarde o Android Studio terminar a sincronizacao do Gradle.
+4. Feche o Android Studio.
+5. De um duplo clique em INSTALAR_APK.bat.
+
+O script tentara executar o build e criar:
+RotaPro-0.7.apk
+
+INSTALACAO NO CELULAR
+- Envie RotaPro-0.7.apk para o Android.
+- Abra o arquivo no celular.
+- Se solicitado, permita a instalacao de aplicativos dessa fonte.
+- Instale e abra o RotaPro.
+
+OBSERVACAO
+Esta versao usa o projeto Android existente. Para gerar o APK neste computador,
+o ambiente Android/Gradle precisa estar instalado. O script detecta Gradle/Wrapper
+e mostra o que falta quando nao encontra as ferramentas.
